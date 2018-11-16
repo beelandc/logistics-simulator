@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<facilities>
+  <facility>
+    <location>Seattle, WA</location>
+    <dailyProcessingCapacity>8</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Fargo, ND</location>
+        <distance>1426</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>San Francisco, CA</location>
+        <distance>808</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>ABC123</id>
+        <quantity>45</quantity>
+      </item>
+      <item>
+        <id>JBL3100</id>
+        <quantity>52</quantity>
+      </item>
+      <item>
+        <id>PL132-C</id>
+        <quantity>54</quantity>
+      </item>
+      <item>
+        <id>PU238</id>
+        <quantity>60</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>San Francisco, CA</location>
+    <dailyProcessingCapacity>12</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Seattle, WA</location>
+        <distance>808</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Denver, CO</location>
+        <distance>1249</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Los Angeles, CA</location>
+        <distance>382</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>RL123A</id>
+        <quantity>40</quantity>
+      </item>
+      <item>
+        <id>XLK200B</id>
+        <quantity>8</quantity>
+      </item>
+      <item>
+        <id>SR71-D</id>
+        <quantity>81</quantity>
+      </item>
+      <item>
+        <id>CT1928</id>
+        <quantity>46</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Los Angeles, CA</location>
+    <dailyProcessingCapacity>10</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>San Francisco, CA</location>
+        <distance>382</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Phoenix, AZ</location>
+        <distance>372</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>RX100-3</id>
+        <quantity>57</quantity>
+      </item>
+      <item>
+        <id>JBL3100</id>
+        <quantity>60</quantity>
+      </item>
+      <item>
+        <id>E241i</id>
+        <quantity>44</quantity>
+      </item>
+      <item>
+        <id>XTP202</id>
+        <quantity>32</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Phoenix, AZ</location>
+    <dailyProcessingCapacity>8</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Los Angeles, CA</location>
+        <distance>372</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Santa Fe, NM</location>
+        <distance>480</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>RX100-3</id>
+        <quantity>18</quantity>
+      </item>
+      <item>
+        <id>SR71-D</id>
+        <quantity>55</quantity>
+      </item>
+      <item>
+        <id>SN-241-L</id>
+        <quantity>22</quantity>
+      </item>
+      <item>
+        <id>ZTF109</id>
+        <quantity>54</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Denver, CO</location>
+    <dailyProcessingCapacity>10</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>San Francisco, CA</location>
+        <distance>1249</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Santa Fe, NM</location>
+        <distance>392</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Fargo, ND</location>
+        <distance>889</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>St. Louis, MO</location>
+        <distance>851</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>ABC123</id>
+        <quantity>80</quantity>
+      </item>
+      <item>
+        <id>RL123A</id>
+        <quantity>110</quantity>
+      </item>
+      <item>
+        <id>RTF110</id>
+        <quantity>100</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Santa Fe, NM</location>
+    <dailyProcessingCapacity>8</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Phoenix, AZ</location>
+        <distance>480</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Denver, CO</location>
+        <distance>392</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>St. Louis, MO</location>
+        <distance>1032</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Austin, TX</location>
+        <distance>688</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>RX100-3</id>
+        <quantity>144</quantity>
+      </item>
+      <item>
+        <id>CR2032</id>
+        <quantity>280</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Fargo, ND</location>
+    <dailyProcessingCapacity>8</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Seattle, WA</location>
+        <distance>1426</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Denver, CO</location>
+        <distance>889</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Chicago, IL</location>
+        <distance>643</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>ABC123</id>
+        <quantity>25</quantity>
+      </item>
+      <item>
+        <id>JBL3100</id>
+        <quantity>32</quantity>
+      </item>
+      <item>
+        <id>XLK200B</id>
+        <quantity>82</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Austin, TX</location>
+    <dailyProcessingCapacity>10</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Santa Fe, NM</location>
+        <distance>688</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>St. Louis, MO</location>
+        <distance>825</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>New Orleans, LA</location>
+        <distance>512</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>RL123A</id>
+        <quantity>66</quantity>
+      </item>
+      <item>
+        <id>RX100-3</id>
+        <quantity>35</quantity>
+      </item>
+      <item>
+        <id>SN-241-L</id>
+        <quantity>35</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>St. Louis, MO</location>
+    <dailyProcessingCapacity>12</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Chicago, IL</location>
+        <distance>297</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Nashville, TN</location>
+        <distance>309</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Austin, TX</location>
+        <distance>825</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Santa Fe, NM</location>
+        <distance>1032</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Denver, CO</location>
+        <distance>851</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>ABC123</id>
+        <quantity>70</quantity>
+      </item>
+      <item>
+        <id>SR71-D</id>
+        <quantity>45</quantity>
+      </item>
+      <item>
+        <id>PU238</id>
+        <quantity>82</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Chicago, IL</location>
+    <dailyProcessingCapacity>10</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Fargo, ND</location>
+        <distance>643</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>St. Louis, MO</location>
+        <distance>297</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>New York City, NY</location>
+        <distance>790</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Detroit, MI</location>
+        <distance>282</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>ABC123</id>
+        <quantity>60</quantity>
+      </item>
+      <item>
+        <id>E241i</id>
+        <quantity>64</quantity>
+      </item>
+      <item>
+        <id>CT1928</id>
+        <quantity>20</quantity>
+      </item>
+      <item>
+        <id>RTF110</id>
+        <quantity>110</quantity>
+      </item>
+      <item>
+        <id>XTP202</id>
+        <quantity>20</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>New Orleans, LA</location>
+    <dailyProcessingCapacity>10</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Austin, TX</location>
+        <distance>512</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Nashville, TN</location>
+        <distance>532</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Atlanta, GA</location>
+        <distance>469</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Miami, FL</location>
+        <distance>864</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>MM35P</id>
+        <quantity>100</quantity>
+      </item>
+      <item>
+        <id>PU238</id>
+        <quantity>49</quantity>
+      </item>
+      <item>
+        <id>ZTF109</id>
+        <quantity>120</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Nashville, TN</location>
+    <dailyProcessingCapacity>8</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>St. Louis, MO</location>
+        <distance>309</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>New Orleans, LA</location>
+        <distance>532</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Norfolk, VA</location>
+        <distance>706</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>RX100-3</id>
+        <quantity>78</quantity>
+      </item>
+      <item>
+        <id>XLK200B</id>
+        <quantity>250</quantity>
+      </item>
+      <item>
+        <id>CR2032</id>
+        <quantity>366</quantity>
+      </item>
+      <item>
+        <id>SN-241-L</id>
+        <quantity>16</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Detroit, MI</location>
+    <dailyProcessingCapacity>10</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Chicago, IL</location>
+        <distance>282</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>New York City, NY</location>
+        <distance>614</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Boston, MA</location>
+        <distance>719</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>JBL3100</id>
+        <quantity>117</quantity>
+      </item>
+      <item>
+        <id>SR71-D</id>
+        <quantity>8</quantity>
+      </item>
+      <item>
+        <id>CT1928</id>
+        <quantity>72</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Boston, MA</location>
+    <dailyProcessingCapacity>10</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Detroit, MI</location>
+        <distance>719</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>New York City, NY</location>
+        <distance>215</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>MM35P</id>
+        <quantity>47</quantity>
+      </item>
+      <item>
+        <id>PL132-C</id>
+        <quantity>83</quantity>
+      </item>
+      <item>
+        <id>CT1928</id>
+        <quantity>65</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>New York City, NY</location>
+    <dailyProcessingCapacity>14</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Boston, MA</location>
+        <distance>215</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Detroit, MI</location>
+        <distance>614</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Chicago, IL</location>
+        <distance>790</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Norfolk, VA</location>
+        <distance>363</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>RL123A</id>
+        <quantity>12</quantity>
+      </item>
+      <item>
+        <id>CR2032</id>
+        <quantity>132</quantity>
+      </item>
+      <item>
+        <id>E241i</id>
+        <quantity>72</quantity>
+      </item>
+      <item>
+        <id>ZTF109</id>
+        <quantity>28</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Norfolk, VA</location>
+    <dailyProcessingCapacity>10</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>New York City, NY</location>
+        <distance>363</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Nashville, TN</location>
+        <distance>706</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Atlanta, GA</location>
+        <distance>566</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>MM35P</id>
+        <quantity>66</quantity>
+      </item>
+      <item>
+        <id>RL123A</id>
+        <quantity>50</quantity>
+      </item>
+      <item>
+        <id>XLK200B</id>
+        <quantity>14</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Atlanta, GA</location>
+    <dailyProcessingCapacity>10</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Norfolk, VA</location>
+        <distance>566</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>New Orleans, LA</location>
+        <distance>469</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>Miami, FL</location>
+        <distance>663</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>RX100-3</id>
+        <quantity>90</quantity>
+      </item>
+      <item>
+        <id>E241i</id>
+        <quantity>32</quantity>
+      </item>
+      <item>
+        <id>PU238</id>
+        <quantity>120</quantity>
+      </item>
+    </inventory>
+  </facility>
+
+  <facility>
+    <location>Miami, FL</location>
+    <dailyProcessingCapacity>12</dailyProcessingCapacity>
+    <dailyProcessingCost>300</dailyProcessingCost>
+    <transportationLinks>
+      <linkedFacility>
+        <location>Atlanta, GA</location>
+        <distance>663</distance>
+      </linkedFacility>
+      <linkedFacility>
+        <location>New Orleans, LA</location>
+        <distance>864</distance>
+      </linkedFacility>
+    </transportationLinks>
+    <inventory>
+      <item>
+        <id>MM35P</id>
+        <quantity>16</quantity>
+      </item>
+      <item>
+        <id>JBL3100</id>
+        <quantity>44</quantity>
+      </item>
+      <item>
+        <id>SR71-D</id>
+        <quantity>15</quantity>
+      </item>
+      <item>
+        <id>SN-241-L</id>
+        <quantity>28</quantity>
+      </item>
+      <item>
+        <id>XTP202</id>
+        <quantity>88</quantity>
+      </item>
+    </inventory>
+  </facility>
+</facilities>

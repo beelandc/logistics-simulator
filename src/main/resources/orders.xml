@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+  <order>
+    <orderId>TO-001</orderId>
+    <orderTime>1</orderTime>
+    <destination>Miami, FL</destination>
+    <orderItems>
+      <orderItem>
+        <itemId>ABC123</itemId>
+        <quantity>180</quantity>
+      </orderItem>
+      <orderItem>
+        <itemId>CR2032</itemId>
+        <quantity>320</quantity>
+      </orderItem>
+    </orderItems>
+  </order>
+  <order>
+    <orderId>TO-002</orderId>
+    <orderTime>1</orderTime>
+    <destination>Boston, MA</destination>
+    <orderItems>
+      <orderItem>
+        <itemId>PL132-C</itemId>
+        <quantity>5</quantity>
+      </orderItem>
+      <orderItem>
+        <itemId>XLK200B</itemId>
+        <quantity>120</quantity>
+      </orderItem>
+    </orderItems>
+  </order>
+  <order>
+    <orderId>TO-003</orderId>
+    <orderTime>4</orderTime>
+    <destination>Seattle, WA</destination>
+    <orderItems>
+      <orderItem>
+        <itemId>XTP202</itemId>
+        <quantity>100</quantity>
+      </orderItem>
+      <orderItem>
+        <itemId>E241i</itemId>
+        <quantity>105</quantity>
+      </orderItem>
+    </orderItems>
+  </order>
+  <order>
+    <orderId>TO-004</orderId>
+    <orderTime>10</orderTime>
+    <destination>Phoenix, AZ</destination>
+    <orderItems>
+      <orderItem>
+        <itemId>CR2032</itemId>
+        <quantity>200</quantity>
+      </orderItem>
+      <orderItem>
+        <itemId>SR71-D</itemId>
+        <quantity>85</quantity>
+      </orderItem>
+    </orderItems>
+  </order>
+  <order>
+    <orderId>TO-005</orderId>
+    <orderTime>7</orderTime>
+    <destination>Chicago, IL</destination>
+    <orderItems>
+      <orderItem>
+        <itemId>XLK200B</itemId>
+        <quantity>120</quantity>
+      </orderItem>
+      <orderItem>
+        <itemId>RX100-3</itemId>
+        <quantity>200</quantity>
+      </orderItem>
+      <orderItem>
+        <itemId>SN-241-L</itemId>
+        <quantity>60</quantity>
+      </orderItem>
+    </orderItems>
+  </order>
+  <order>
+    <orderId>TO-006</orderId>
+    <orderTime>1</orderTime>
+    <destination>Denver, CO</destination>
+    <orderItems>
+      <orderItem>
+        <itemId>CT1928</itemId>
+        <quantity>120</quantity>
+      </orderItem>
+      <orderItem>
+        <itemId>MM35P</itemId>
+        <quantity>200</quantity>
+      </orderItem>
+    </orderItems>
+  </order>
+</orders>
